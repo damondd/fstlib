@@ -2,11 +2,10 @@
 #include "gtest/gtest.h"
 #include "gtest/internal/gtest-filepath.h"
 
-#include <interface/fststore.h>
-#include <interface/fsthash.h>
-
-#include <fsttable.h>
-#include <IntegerMethods.h>
+#include <fstlib/fstcore/interface/fststore.h>
+#include <fstlib/fstcore/interface/fsthash.h>
+#include <fstlib/fsttable.h>
+#include <fstlib/IntegerMethods.h>
 
 #include "testhelpers.h"
 #include "ReadWriteTester.h"

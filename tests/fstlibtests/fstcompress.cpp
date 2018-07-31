@@ -1,19 +1,18 @@
 
-#include <cstring>
 #include "gtest/gtest.h"
 #include "gtest/internal/gtest-filepath.h"
 
-#include <interface/fstcompressor.h>
-#include <interface/fsthash.h>
+#include <cstring>
+#include <fstream>
 
-#include <columnfactory.h>
-#include <typefactory.h>
-
-#include <IntegerMethods.h>
+#include <fstlib/fstcore/interface/fstcompressor.h>
+#include <fstlib/fstcore/interface/fsthash.h>
+#include <fstlib/columnfactory.h>
+#include <fstlib/typefactory.h>
+#include <fstlib/IntegerMethods.h>
 
 #include "testhelpers.h"
 #include "ReadWriteTester.h"
-#include <fstream>
 
 
 #ifdef _OPENMP

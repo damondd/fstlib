@@ -2,13 +2,12 @@
 #include "gtest/gtest.h"
 #include "gtest/internal/gtest-filepath.h"
 
-#include <interface/openmphelper.h>
-#include <interface/fststore.h>
-#include <compression/compression.h>
-
-#include <fsttable.h>
-#include <IntegerMethods.h>
-#include <columnfactory.h>
+#include <fstlib/fstcore/interface/openmphelper.h>
+#include <fstlib/fstcore/interface/fststore.h>
+#include <fstlib/fstcore/compression/compression.h>
+#include <fstlib/fsttable.h>
+#include <fstlib/IntegerMethods.h>
+#include <fstlib/columnfactory.h>
 
 #include "testhelpers.h"
 #include "ReadWriteTester.h"

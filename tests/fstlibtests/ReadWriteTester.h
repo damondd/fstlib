@@ -3,10 +3,9 @@
 
 #include "gtest/gtest.h"
 
-#include <interface/fststore.h>
-
-#include <fsttable.h>
-#include <columnfactory.h>
+#include <fstlib/fstcore/interface/fststore.h>
+#include <fstlib/columnfactory.h>
+#include <fstlib/fsttable.h>
 
 class ReadWriteTester
 {

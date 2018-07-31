@@ -1,3 +1,4 @@
+build
 .hg/*
 .hgignore
 *.a
@@ -23,7 +24,6 @@
 *.so
 *.suo
 *.tlog
-*.txt
 *.user
 *.zip
 .Rproj.user

@@ -5,12 +5,11 @@
 
 #include <string>
 
-#include <interface/fststore.h>
-#include <interface/icolumnfactory.h>
-#include <interface/openmphelper.h>
-
-#include <fsttable.h>
-#include <columnfactory.h>
+#include <fstlib/fstcore/interface/fststore.h>
+#include <fstlib/fstcore/interface/icolumnfactory.h>
+#include <fstlib/fstcore/interface/openmphelper.h>
+#include <fstlib/fsttable.h>
+#include <fstlib/columnfactory.h>
 
 #include "testhelpers.h"
 
