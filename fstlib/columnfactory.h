@@ -27,7 +27,7 @@ class ColumnFactory : public IColumnFactory
 
 	IDoubleColumn* CreateDoubleColumn(int nrOfRows, FstColumnAttribute columnAttribute, short int scale)
 	{
-		//return new DoubleVectorAdapter(nrOfRows, columnAttribute, scale);
+		return new DoubleVectorAdapter(nrOfRows, columnAttribute, scale);
 	}
 
 	IIntegerColumn* CreateIntegerColumn(int nrOfRows, FstColumnAttribute columnAttribute, short int scale)
