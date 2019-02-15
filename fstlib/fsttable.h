@@ -669,7 +669,7 @@ public:
 
 	void SetColumnNames(StringArray &colnames) const
 	{
-		for (int colNr = 0; colNr < this->colNames->size(); colNr++)
+		for (std::size_t colNr = 0; colNr < this->colNames->size(); ++colNr)
 		{
 			(*colNames)[colNr] = colnames.GetElement(colNr);
 		}
